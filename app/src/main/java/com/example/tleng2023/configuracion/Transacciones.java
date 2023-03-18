@@ -19,7 +19,7 @@ public class Transacciones
 
     //Consultas SQL DDL
 
-    public static String CreateTBPersonas = "CREATE TABLE personas ( id INTEGER PRIMARY KEY AUTOINCREMENT"+
+    public static String CreateTBPersonas = "CREATE TABLE personas ( id INTEGER PRIMARY KEY AUTOINCREMENT,"+
             "nombres TEXT, apellidos TEXT, edad INTEGER, correo TEXT )";
 
     public static String DropTBPersonas = "DROP TABLE IF EXISTS personas";
