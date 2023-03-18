@@ -19,6 +19,7 @@ public class SQLiteConexion extends SQLiteOpenHelper
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase)
     {
+  //Creacion de objetos de base de datos
 
     }
 
